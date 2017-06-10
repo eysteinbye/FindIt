@@ -7,7 +7,7 @@ Test machine learning on your iOS device.
 To use the CoreML framework you need a trained model. You can download some models at [Apples Machine Learning page](https://developer.apple.com/machine-learning/).
 If you have a model in other formats (like Keras, Caffe, scikit-learn, libsvm, or XGBoost), you can convert it to .mlmodel with the Python tool [coremlutils](https://pypi.python.org/pypi/coremltools).
 
-I had some problems with installing `coremlutils` so I made this [installation guide](docs/CoreMlutils.md).
+I had some problems with installing `coremlutils` so I made this [installation guide](docs/CoreMLUtils.md).
 
 ## How it works
 
