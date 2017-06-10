@@ -1,7 +1,7 @@
 # How to install coremltools
 
 
-From the (coremlutils guide)[https://pypi.python.org/pypi/coremltools] we are told to use `pip` to install.
+From the [coremlutils guide](https://pypi.python.org/pypi/coremltools) we are told to use `pip` to install.
 ```
 pip install -U coremltools
 ```
