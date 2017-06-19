@@ -1,6 +1,10 @@
 machine:
   xcode:
     version: 9.0
+  environment:
+    XCODE_SCHEME: FindIt
+    XCODE_PROJECT: FindIt.xcodeproj
+      
 dependencies:
   pre:
     - gem install bundler
