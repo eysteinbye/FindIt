@@ -15,6 +15,9 @@
 		45152E651EE9EF9E00BD6A09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45152E631EE9EF9E00BD6A09 /* LaunchScreen.storyboard */; };
 		45152E701EE9EF9F00BD6A09 /* FindItTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45152E6F1EE9EF9F00BD6A09 /* FindItTests.swift */; };
 		45152E7B1EE9EF9F00BD6A09 /* FindItUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45152E7A1EE9EF9F00BD6A09 /* FindItUITests.swift */; };
+		45DE32421EF8175700C089AE /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45DE32411EF8175700C089AE /* Result.swift */; };
+		45DE32431EF8175700C089AE /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45DE32411EF8175700C089AE /* Result.swift */; };
+		45DE32451EF8182200C089AE /* ResultTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45DE32441EF8182200C089AE /* ResultTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,8 @@
 		45152E761EE9EF9F00BD6A09 /* FindItUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindItUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		45152E7A1EE9EF9F00BD6A09 /* FindItUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindItUITests.swift; sourceTree = "<group>"; };
 		45152E7C1EE9EF9F00BD6A09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45DE32411EF8175700C089AE /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		45DE32441EF8182200C089AE /* ResultTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +111,7 @@
 				45152E611EE9EF9E00BD6A09 /* Assets.xcassets */,
 				45152E631EE9EF9E00BD6A09 /* LaunchScreen.storyboard */,
 				45152E661EE9EF9E00BD6A09 /* Info.plist */,
+				45DE32411EF8175700C089AE /* Result.swift */,
 			);
 			path = FindIt;
 			sourceTree = "<group>";
@@ -115,6 +121,7 @@
 			children = (
 				45152E6F1EE9EF9F00BD6A09 /* FindItTests.swift */,
 				45152E711EE9EF9F00BD6A09 /* Info.plist */,
+				45DE32441EF8182200C089AE /* ResultTest.swift */,
 			);
 			path = FindItTests;
 			sourceTree = "<group>";
@@ -261,6 +268,7 @@
 			files = (
 				45152E5D1EE9EF9E00BD6A09 /* ViewController.swift in Sources */,
 				450FE2ED1EEC69F9002D74C9 /* Inceptionv3.mlmodel in Sources */,
+				45DE32421EF8175700C089AE /* Result.swift in Sources */,
 				45152E5B1EE9EF9E00BD6A09 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,6 +277,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45DE32451EF8182200C089AE /* ResultTest.swift in Sources */,
+				45DE32431EF8175700C089AE /* Result.swift in Sources */,
 				45152E701EE9EF9F00BD6A09 /* FindItTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

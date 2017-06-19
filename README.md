@@ -24,3 +24,5 @@ espresso 0.000578004
 ```
 
 From this result we can be quite sure that the image contains a glass of beer.
+
+

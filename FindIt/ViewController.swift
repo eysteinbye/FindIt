@@ -47,19 +47,12 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
             else { fatalError("Error") }
         
         if let bestMatch = results.first {
-            descLabel.text = showResult(confidence: bestMatch.confidence, object: bestMatch.identifier)
+            descLabel.text = Result.objectFromConfidence(confidence: bestMatch.confidence, object: bestMatch.identifier)
         }
         
         for classification in results {
             print(classification.identifier, classification.confidence)
         }
-    }
-    
-    private func showResult(confidence: VNConfidence, object: String) -> String {
-        if (confidence.isLess(than: 0.1)) { return "I don´t know what this is" }
-        if (confidence.isLess(than: 0.3)) { return "Could this be \(object)?" }
-        if (confidence.isLess(than: 0.5)) { return "This must be \(object)" }
-        return "This is \(object)"
     }
     
     private func converToCGImage(image: UIImage) -> CGImage {
